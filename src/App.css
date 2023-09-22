@@ -1,0 +1,12 @@
+/* Global Fonts */
+@font-face {
+    font-family: GadugiBold;
+    src: url('./assets/fonts/gadugi/gadugi-bold.ttf');
+}
+
+/* Global CSS */
+@media (min-width: 1700px) {
+    .container{
+        max-width: 1644px;
+    }
+}

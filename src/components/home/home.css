@@ -1,0 +1,63 @@
+.banner {
+    padding-top: 74px;
+    background: url('../../assets/images/banner-bt-line.png') bottom center /100% no-repeat, url('../../assets/images/home-banner-bg.png') top left /auto 98% no-repeat, #000;
+    height: 898px;
+}
+
+.banner-imgs {
+    position: relative;
+    height: 898px;
+}
+
+.banner-imgs .img-1-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.banner-imgs .img-2-div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.banner-imgs .img {
+    width: 97%;
+}
+
+@media screen and (max-width: 1699.9px) {
+    .banner-imgs .img-2-div {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1399.9px) {
+    .banner {
+        background: url('../../assets/images/banner-bt-line.png') bottom center /100% no-repeat, url('../../assets/images/home-banner-bg.png') top center /auto 98% no-repeat, #000;
+    }
+}
+
+@media screen and (max-width: 1199.9px) {
+    .banner {
+        height: 750px;
+    }
+}
+
+@media screen and (max-width: 991.9px) {
+    .banner-imgs {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header .navbar {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .header .logo .logo-img {
+        width: 120px;
+    }
+}

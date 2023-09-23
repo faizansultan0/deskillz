@@ -4,7 +4,16 @@
     src: url('./assets/fonts/gadugi/gadugi-bold.ttf');
 }
 
+@font-face {
+    font-family: GadugiRegular;
+    src: url('./assets/fonts/gadugi/gadugi-normal.ttf');
+}
+
 /* Global CSS */
+* {
+    font-family: GadugiBold, sans-serif;
+}
+
 @media (min-width: 1700px) {
     .container{
         max-width: 1644px;

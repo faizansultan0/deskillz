@@ -6,7 +6,8 @@
 
 .banner-imgs {
     position: relative;
-    height: 898px;
+    height: inherit;
+    height: 824px;
 }
 
 .banner-imgs .img-1-div {

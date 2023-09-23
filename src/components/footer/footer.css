@@ -1,0 +1,184 @@
+.footer-top {
+    padding: 99px 0 92px;
+    background-color: #232227;
+}
+
+.f-logo, .f-logo-a {
+    display: inline-block;
+}
+
+.f-logo {
+    margin-bottom: 39px;
+}
+
+.f-logo-img {
+    width: 172px;
+}
+
+.red-after-element {
+    position: relative;
+    margin-bottom: 34px;
+}
+
+.red-after-element::after {
+    position: absolute;
+    content: ' ';
+    left: 0;
+    bottom: -16px;
+    height: 2px;
+    width: 82px;
+    background-color: #D31D05;
+}
+
+.footer-para, .footer-link {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: GadugiRegular;
+}
+
+.footer-para {
+    width: 90%;
+    margin-bottom: 33px;
+}
+
+.social-links {
+    display: flex;
+    gap: 5px;
+}
+
+.social-link-li {
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.insta-li:hover {
+    background-color: #FE0021;
+}
+
+.twitter-li:hover {
+    background-color: #009BF7;
+}
+
+.discord-li:hover {
+    background-color: #5960FB;
+}
+
+.tele-li:hover {
+    background-color: #009EDF;
+}
+
+.social-link-li:hover .social-icon {
+    color: white;
+}
+
+.insta-icon {
+    color: #FE0021;
+}
+
+.twitter-icon {
+    color: #009BF7;
+}
+
+.discord-icon {
+    color: #5960FB;
+}
+
+.tele-icon {
+    color: #009EDF;
+}
+
+.footer-heading {
+    color: white;
+    font-size: 30px;
+}
+
+.footer-links {
+    padding: 0;
+}
+
+.footer-link-li {
+    margin-bottom: 18px;
+}
+
+/* Footer Bottom Part */
+.footer-bottom {
+    background-color: #141317;
+}
+
+.bottom-para {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding: 9px 0 12px;
+    margin: 0;
+    font-family: GadugiRegular;
+}
+
+@media screen and (max-width: 1699.9px) {
+    .footer-para {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1399.9px) {
+    .f-logo-img {
+        width: 150px;
+        margin-bottom: 8px;
+    }
+
+    .footer-heading {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1199.9px) {
+    .f-logo-img {
+        width: 120px;
+    }
+
+    .footer-heading {
+        font-size: 26px;
+    }
+
+    .footer-para, .footer-link {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 991.9px) {
+    .col-content {
+        padding-bottom: 20px;
+    }
+
+    .footer-top {
+        padding: 84px 0 54px;
+    }
+}
+
+@media screen and (max-width: 575.9px) {
+    .bottom-para {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer-heading {
+        font-size: 24px;
+    }
+
+    .footer-top {
+        padding: 70px 0 30px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .footer-top {
+        padding: 60px 0 14px;
+    }
+}

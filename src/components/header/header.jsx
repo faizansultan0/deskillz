@@ -22,19 +22,19 @@ const Header = () => {
                             <Navbar.Collapse id="basic-navbar-nav">
                                 <Nav className="me-auto">
                                     <Nav.Item>
-                                        <Nav.Link href="/">Home</Nav.Link>
+                                        <Link className='nav-link' to="/">Home</Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link href="#link">Developers</Nav.Link>
+                                        <Link className='nav-link' to="/explore">Developers</Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link href="#link">Players</Nav.Link>
+                                        <Link className='nav-link' to="/game-details">Players</Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link href="#link">About Us</Nav.Link>
+                                        <Link className='nav-link' to="#link">About Us</Link>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link href="#link">News</Nav.Link>
+                                        <Link className='nav-link' to="#link">News</Link>
                                     </Nav.Item>
                                     {/* <Nav.Item>
                                         <Player

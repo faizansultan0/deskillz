@@ -20,28 +20,152 @@
 .banner-imgs .img-2-div {
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: -144px;
 }
 
 .banner-imgs .img {
     width: 97%;
 }
 
+/* Banner Right Content */
+.banner .right-content {
+    padding-top: 206px;
+}
+
+.banner .best-para {
+    font-size: 28px;
+    font-family: GadugiRegular, sans-serif;
+    text-align: right;
+    margin: 0;
+}
+
+.banner .hero-heading {
+    font-size: 140px;
+    line-height: 144px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.banner .available-para {
+    font-size: 29px;
+    text-align: right;
+    font-family: GadugiRegular, sans-serif;
+    margin-bottom: 30px;
+}
+
+.banner .buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+}
+
 @media screen and (max-width: 1699.9px) {
     .banner-imgs .img-2-div {
         display: none;
+    }
+
+    /* Banner Right Section */
+    .banner .right-content {
+        padding-top: 180px;
+    }
+
+    .banner .hero-heading {
+        font-size: 118px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .banner .right-content {
+        padding-top: 150px;
+    }
+
+    .banner .best-para {
+        font-size: 23px;
+    }
+
+    .banner .hero-heading {
+        font-size: 104px;
+        line-height: 110px;
+    }
+
+    .banner .available-para {
+        font-size: 24px;
+    }
+
+    .global-btn {
+        font-size: 18px;
     }
 }
 
 @media screen and (max-width: 1399.9px) {
     .banner {
         background: url('../../assets/images/banner-bt-line.png') bottom center /100% no-repeat, url('../../assets/images/home-banner-bg.png') top center /auto 98% no-repeat, #000;
+        height: 720px;
+    }
+
+    .banner-imgs {
+        height: 646px;
+    }
+
+    .banner-imgs .img {
+        width: 80%;
+    }
+
+    .banner .best-para {
+        font-size: 19px;
+    }
+
+    .banner .hero-heading {
+        font-size: 96px;
+        line-height: 100px;
+    }
+
+    .banner .available-para {
+        font-size: 20px;
+    }
+
+    .global-btn {
+        font-size: 16px;
+    }
+
+    .blue-btn {
+        padding: 18px 38px;
+    }
+
+    .red-btn {
+        padding: 18px 34px;
     }
 }
 
 @media screen and (max-width: 1199.9px) {
     .banner {
-        height: 750px;
+        height: 620px;
+    }
+
+    .banner-imgs {
+        height: 546px;
+    }
+
+    .banner .right-content {
+        padding-top: 126px;
+    }
+
+    .banner .best-para {
+        font-size: 17px;
+    }
+
+    .banner .hero-heading {
+        font-size: 84px;
+        line-height: 96px;
+    }
+
+    .banner .available-para {
+        font-size: 17px;
+    }
+
+    .global-btn {
+        font-size: 14px;
     }
 }
 
@@ -49,16 +173,96 @@
     .banner-imgs {
         display: none;
     }
+
+    .banner .best-para, .banner .hero-heading, .banner .available-para {
+        text-align: left;
+    }
+
+    .banner .buttons {
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width: 767.9px) {
+    .banner {
+        height: 580px;
+    }
+
+    .banner .hero-heading {
+        font-size: 80px;
+        line-height: 84px;
+    }
+
+    .banner .right-content {
+        padding-top: 100px;
+    }
+
+    .blue-btn, .red-btn {
+        padding: 15px 32px;
+    }
+}
+
+@media screen and (max-width: 576.9px) {
+    .banner {
+        height: 550px;
+    }
+
+    .banner .right-content {
+        padding-top: 80px;
+    }
 }
 
 @media screen and (max-width: 480px) {
-    .header .navbar {
-        padding: 0;
+    .banner {
+        height: 500px;
+    }
+     
+    .banner .right-content {
+        padding-top: 70px;
+    }
+
+    .banner .hero-heading {
+        font-size: 64px;
+        line-height: 66px;
+    }
+
+    .banner .buttons {
+        gap: 18px;
+    }
+
+    .blue-btn, .red-btn {
+        padding: 13px 28px;
     }
 }
 
 @media screen and (max-width: 380px) {
-    .header .logo .logo-img {
-        width: 120px;
+    .banner {
+        height: 450px;
+    }
+
+    .banner .right-content {
+        padding-top: 60px;
+    }
+
+    .banner .best-para {
+        font-size: 15px;
+    }
+
+    .banner .hero-heading {
+        font-size: 48px;
+        line-height: 50px;
+    }
+
+    .banner .available-para {
+        font-size: 15px;
+        margin-bottom: 22px;
+    }
+
+    .banner .buttons {
+        gap: 10px;
+    }
+
+    .blue-btn, .red-btn {
+        padding: 13px 20px;
     }
 }

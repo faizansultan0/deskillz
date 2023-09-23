@@ -12,6 +12,7 @@
 /* Global CSS */
 * {
     font-family: GadugiBold, sans-serif;
+    color: white;
 }
 
 @media (min-width: 1700px) {

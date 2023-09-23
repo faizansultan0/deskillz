@@ -5,6 +5,7 @@
     border-radius: 4px;
     clip-path: polygon(10% 0, 100% 0, 100% 74%, 90% 100%, 0 100%, 0 26%);
     position: relative;
+    display: inline-block;
 }
 
 .blue-btn {

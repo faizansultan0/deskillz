@@ -20,7 +20,7 @@ const Header = () => {
                         <Container>
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                             <Navbar.Collapse id="basic-navbar-nav">
-                                <Nav className="me-auto">
+                                <Nav className="me-auto" >
                                     <Nav.Item>
                                         <Link className='nav-link' to="/">Home</Link>
                                     </Nav.Item>

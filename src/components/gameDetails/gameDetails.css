@@ -1,0 +1,628 @@
+.game-details-page {
+    background: linear-gradient(180deg, #060102 0%, #0E0206 100%);
+}
+
+.game-banner {
+    height: 1080px;
+    background: url('../../assets/images/game-banner.png') right top no-repeat, #000;
+}
+
+.game-banner .left-content {
+    padding-top: 100px;
+}
+
+.game-banner .back-link {
+    font-family: GadugiRegular;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 73px;
+    display: inline-block;
+}
+
+.game-banner .game-icon-div {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.game-icon {
+    width: 100%;
+}
+
+.game-banner .game-name {
+    font-size: 46px;
+    margin-bottom: 30px;
+}
+
+.game-banner .game-description {
+    font-family: GadugiRegular, sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 50px;
+    width: 89%;
+}
+
+.d-btns {
+    display: flex;
+    gap: 21px;
+    align-items: center;
+}
+
+.d-btn {
+    text-decoration: none;
+    padding: 9px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    gap: 9px;
+}
+
+.d-icon-div {
+    width: 42px;
+    height: 42px;
+}
+
+.d-icon {
+    width: 100%;
+}
+
+.d-btn .sm-line {
+    display: block;
+    color: #9292B1;
+    font-family: GadugiRegular, sans-serif;
+}
+
+.d-btn .platform-name {
+    color: #111115;
+    display: block;
+}
+
+/* Right Part */
+.game-banner .right-part {
+    padding-top: 573px;
+}
+
+.game-banner .a-cards {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+}
+
+.game-banner .a-card {
+    border: 0;
+    width: 180px;
+    height: 180px;
+    border-radius: 14px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.game-banner .a-card:first-child::before {
+    content: 'Available for';
+    font-size: 26px;
+    font-family: GadugiRegular;
+    position: absolute;
+    left: -94px;
+    top: 74px;
+    transform: rotate(90deg);
+
+}
+
+/* Game Images Section */
+.game-images {
+    /* transform: translateY(-50%); */
+    margin-top: -189px;
+    overflow: hidden;
+}
+
+.game-images .slick-list {
+    overflow: visible;
+}
+
+.game-images .img-div {
+    padding-right: 24px;
+    overflow: hidden;
+    height: 378px;
+}
+
+.game-images .img {
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+}
+
+/* Like Section */
+.like-section .content {
+    padding-top: 100px;
+    padding-bottom: 168px;
+}
+
+.like-section .heading {
+    margin-bottom: 40px;
+    font-size: 46px;
+}
+
+.like-card {
+    padding: 20px;
+    background-color: white;
+    border-radius: 14px;
+}
+
+.like-card .img-div {
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.like-card .img {
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 120%;
+    max-height: 120%;
+}
+
+.like-card .like-name {
+    color: black;
+    font-size: 30px;
+    margin: 0;
+}
+
+.like-card .gold {
+    color: black;
+    opacity: 60%;
+    font-size: 20px;
+    display: block;
+    font-family: GadugiRegular, sans-serif;
+    margin-bottom: 20px;
+}
+
+.like-card .bottom-part {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.like-card .global-btn {
+    padding: 11px 37px;
+}
+
+.like-card .global-btn:hover::after {
+    display: none;
+}
+
+.like-card .icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.like-card .apple-link {
+    font-size: 28px;
+    line-height: 24px;
+}
+
+.like-card .apple-link svg {
+    line-height: 24.5px;
+}
+
+.like-card .apple-link path {
+    color: black;
+}
+
+@media screen and (max-width: 1699.9px) {
+    .game-banner {
+        height: 1000px;
+        background-position: center top;
+    }
+
+    .game-banner .back-link {
+        margin-bottom: 50px;
+    }
+
+    .game-banner .game-icon-div {
+        width: 170px;
+        height: 170px;
+        margin-bottom: 36px;
+    }
+
+    .game-banner .game-name {
+        font-size: 44px;
+        margin-bottom: 24px;
+    }
+
+    .game-banner .game-description {
+        width: 100%;
+        font-size: 19px;
+        line-height: 25px;
+        margin-bottom: 44px;
+
+    }
+
+    .game-banner .a-cards {
+        gap: 30px;
+    }
+
+    .game-banner .a-card:first-child::before {
+        font-size: 22px;
+        left: -82px;
+        top: 66px;
+    }
+
+    /* Game Images Section */
+    .game-images {
+        margin-top: -160px;
+    }
+
+    .game-images .img-div {
+        height: 320px;
+    }
+
+    .game-banner .right-part {
+        padding-top: 520px;
+    }
+
+    .game-banner .a-card {
+        width: 160px;
+        height: 160px;
+    }
+
+    /* Like Section */
+    .like-section .content {
+        padding-top: 70px;
+        padding-bottom: 146px;
+    }
+
+    .like-section .heading {
+        font-size: 42px;
+        margin-bottom: 36px;
+    }
+
+    .like-card .img-div {
+        height: 250px;
+        margin-bottom: 16px;
+    }
+
+    .like-card .like-name {
+        font-size: 26px;
+    }
+
+    .like-card .gold {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1399.9px) {
+    .game-banner {
+        height: 850px;
+    }
+
+    .game-banner .left-content {
+        padding-top: 90px;
+    }
+
+    .game-banner .back-link {
+        font-size: 18px;
+        margin-bottom: 36px;
+    }
+
+    .game-banner .game-icon-div {
+        width: 150px;
+        height: unset;
+        margin-bottom: 26px;
+    }
+
+    .game-banner .game-name {
+        font-size: 40px;
+        margin-bottom: 16px;
+    }
+
+    .game-banner .game-description {
+        font-size: 17px;
+        line-height: 23px;
+        margin-bottom: 36px;
+    }
+
+    .game-banner .right-part {
+        padding-top: 420px;
+    }
+
+    .game-banner .a-card {
+        width: 140px;
+        height: 140px;
+        padding: 20px;
+    }
+
+    .game-banner .a-card:first-child::before {
+        font-size: 19px;
+        left: -70px;
+        top: 54px;
+    }
+
+    .game-banner .a-card img {
+        height: 100%;
+    }
+
+
+    /* Game Images Section */
+    .game-images {
+        margin-top: -130px;
+    }
+
+    .game-images .img-div {
+        height: 260px;
+    }
+
+    /* Like Section */
+    .like-section .content {
+        padding-top: 50px;
+        padding-bottom: 110px;
+    }
+
+    .like-section .heading {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    .like-card {
+        padding: 16px;
+    }
+
+    .like-card .img-div {
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    .like-card .like-name {
+        font-size: 22px;
+    }
+
+    .like-card .gold {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1199.9px) {
+    .game-banner {
+        height: 770px;
+    }
+
+    .game-banner .left-content {
+        padding-top: 80px;
+    }
+
+    .game-banner .back-link {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .game-banner .game-icon-div {
+        width: 130px;
+        margin-bottom: 20px;
+    }
+
+    .game-banner .game-name {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+
+    .game-banner .game-description {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 32px;
+    }
+
+    .d-icon-div {
+        width: 38px;
+        height: 38px;
+    }
+
+    .d-btn .sm-line {
+        font-size: 14px;
+    }
+
+    .d-btn .platform-name {
+        font-size: 15px;
+    }
+
+    .game-banner .right-part {
+        padding-top: 400px;
+    }
+
+    .game-banner .a-cards {
+        gap: 26px;
+    }
+
+    .game-banner .a-card {
+        width: 120px;
+        height: 120px;
+        padding: 16px;
+    }
+
+    .game-banner .a-card:first-child::before {
+        font-size: 16px;
+        left: -60px;
+        top: 50px;
+    }
+
+    /* Game Images Section */
+    .game-images {
+        margin-top: -110px;
+    }
+
+    .game-images .img-div {
+        height: 220px;
+    }
+
+    /* Like Section */
+    .like-section .content {
+        padding-top: 40px;
+        padding-bottom: 90px;
+    }
+
+    .like-section .heading {
+        font-size: 30px;
+        margin-bottom: 24px;
+    }
+
+    .like-card {
+        padding: 14px;
+    }
+
+    .like-card .img-div {
+        height: 160px;
+        margin-bottom: 6px;
+    }
+
+    .like-card .like-name {
+        font-size: 18px;
+    }
+
+    .like-card .gold {
+        margin-bottom: 6px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 991.9px) {
+    .game-banner {
+        height: fit-content;
+    }
+
+    .game-banner .a-cards {
+        justify-content: start;
+        padding-left: 22px;
+    }
+    
+    .game-banner .right-part {
+        padding: 40px 0 150px;
+    }
+
+    /* Like Section */
+    .like-card {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .game-banner .left-content {
+        padding-top: 70px;
+    }
+
+    .game-banner .back-link {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .game-banner .game-icon-div {
+        width: 106px;
+        margin-bottom: 12px;
+    }
+
+    .game-banner .game-name {
+        font-size: 34px;
+        margin-bottom: 6px;
+    }
+
+    .game-banner .game-description {
+        font-size: 15px;
+        line-height: 21px;
+        margin-bottom: 26px;
+    }
+
+    .d-icon-div {
+        width: 32px;
+        height: 32px;
+    }
+
+    .d-btn {
+        gap: 6px;
+    }
+
+    .d-btn .sm-line {
+        font-size: 12px;
+    }
+
+    .d-btn .platform-name {
+        font-size: 12px;
+    }
+
+    .game-banner .right-part {
+        padding: 32px 0 140px;
+    }
+
+    /* Game Images Section */
+    .game-images .img-div{
+        padding-right: 16px;
+    }
+
+    /* Like Section */
+    .like-section .content {
+        padding-top: 26px;
+        padding-bottom: 50px;
+    }
+
+    .like-section .heading {
+        font-size: 26px;
+        margin-bottom: 18px;
+    }
+}
+
+@media screen and (max-width: 575.9px) {
+    /* Like Section */
+    .like-card {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .game-banner .back-link {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .game-banner .game-name {
+        font-size: 26px;
+    }
+
+    .d-btn {
+        gap: 2px;
+    }
+
+    .d-btn .sm-line {
+        font-size: 10px;
+    }
+
+    .d-btn .platform-name {
+        font-size: 10px;
+    }
+
+    /* Game Images Section */
+    .game-images {
+        margin-top: -80px;
+    }
+
+    .game-images .img-div {
+        height: 160px;
+    }
+
+    /* Like Section */
+    .like-section .content {
+        padding-top: 16px;
+        padding-bottom: 34px;
+    }
+
+    .like-section .heading {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+}

@@ -36,6 +36,12 @@ const Home = () => {
                     </div>
                 </Container>
             </section>
+
+            {/* <section className="welcome-section">
+                <Container>
+
+                </Container>
+            </section> */}
         </Layout>
     )
 }

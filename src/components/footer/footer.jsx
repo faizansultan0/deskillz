@@ -22,23 +22,23 @@ const Footer = () => {
                                     <p className="footer-para">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetu</p>
                                     <ul className="footer-links social-links">
                                         <li className="social-link-li insta-li">
-                                            <Link className="social-link">
-                                                <FontAwesomeIcon icon={faInstagram} className='social-icon insta-icon' />
+                                            <Link className="social-link insta-icon-link">
+                                                <FontAwesomeIcon icon={faInstagram} className='social-icon' />
                                             </Link>
                                         </li>
                                         <li className="social-link-li twitter-li">
-                                            <Link className="social-link">
-                                                <FontAwesomeIcon icon={faTwitter} className='social-icon twitter-icon' />
+                                            <Link className="social-link twitter-icon-link">
+                                                <FontAwesomeIcon icon={faTwitter} className='social-icon' />
                                             </Link>
                                         </li>
                                         <li className="social-link-li discord-li">
-                                            <Link className="social-link">
-                                                <FontAwesomeIcon icon={faDiscord} className='social-icon discord-icon' />
+                                            <Link className="social-link discord-icon-link">
+                                                <FontAwesomeIcon icon={faDiscord} className='social-icon' />
                                             </Link>
                                         </li>
                                         <li className="social-link-li tele-li">
-                                            <Link className="social-link">
-                                                <FontAwesomeIcon icon={faTelegramPlane} className='social-icon tele-icon' />
+                                            <Link className="social-link tele-icon-link">
+                                                <FontAwesomeIcon icon={faTelegramPlane} className='social-icon' />
                                             </Link>
                                         </li>
                                     </ul>

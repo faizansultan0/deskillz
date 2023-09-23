@@ -73,23 +73,23 @@
     background-color: #009EDF;
 }
 
-.social-link-li:hover .social-icon {
+.social-link-li:hover .social-icon path {
     color: white;
 }
 
-.insta-icon {
+.insta-icon-link path {
     color: #FE0021;
 }
 
-.twitter-icon {
+.twitter-icon-link path {
     color: #009BF7;
 }
 
-.discord-icon {
+.discord-icon-link path {
     color: #5960FB;
 }
 
-.tele-icon {
+.tele-icon-link path {
     color: #009EDF;
 }
 
@@ -175,6 +175,10 @@
 
     .footer-top {
         padding: 70px 0 30px;
+    }
+
+    .col-content {
+        padding-bottom: 4px;
     }
 }
 

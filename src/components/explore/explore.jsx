@@ -1,4 +1,5 @@
 import Layout from '../../layout';
+import './explore.css';
 
 const Explore = () => {
     return (

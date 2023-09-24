@@ -37,11 +37,55 @@ const Home = () => {
                 </Container>
             </section>
 
-            {/* <section className="welcome-section">
+            <section className="welcome-section">
                 <Container>
-
+                    <div className="content">
+                        <Row>
+                            <Col lg={7} >
+                                <div className="left-content">
+                                    <h2 className="heading">Welcome to Deskillz</h2>
+                                    <p className="para">Deskillz is a platform which allows indie devs to integrate their existing games onto the platform ecosystem. The Deskillz platform helps developers build multi-million dollar franchises by enabling social competition in their games. Leveraging its patented technology, Deskillz hosts billions of casual esports tournaments for millions of mobile players worldwide, and distributes millions in prizes each month.</p>
+                                    <div className="sm-cards">
+                                        <div className="sm-card">
+                                            <div className="icon-div">
+                                                <img src={images.gameSMIcon1} alt="Honor" />
+                                            </div>
+                                            <span className="name">Honor</span>
+                                        </div>
+                                        <div className="sm-card">
+                                            <div className="icon-div">
+                                                <img src={images.gameSMIcon2} alt="Mission" />
+                                            </div>
+                                            <span className="name">Mission</span>
+                                        </div>
+                                        <div className="sm-card">
+                                            <div className="icon-div">
+                                                <img src={images.gameSMIcon3} alt="Productivity" />
+                                            </div>
+                                            <span className="name">Productivity</span>
+                                        </div>
+                                        <div className="sm-card">
+                                            <div className="icon-div">
+                                                <img src={images.gameSMIcon4} alt="Collaboration" />
+                                            </div>
+                                            <span className="name">Collaboration</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Col>
+                            <Col lg={5} >
+                                <div className="right-part">
+                                    <div className="right-content">
+                                        <h3 className="heading-2">PAYMENTS IN BUSDS</h3>
+                                        <p className="para-2">Using crypto busd to enter into a challenge that will be paid out in busd tokens</p>
+                                        <GlobalButton type='transparent-btn' text='Join Great Platform' />
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
                 </Container>
-            </section> */}
+            </section>
         </Layout>
     )
 }

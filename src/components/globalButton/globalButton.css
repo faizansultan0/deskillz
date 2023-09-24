@@ -48,3 +48,86 @@
     padding: 22px 40px;
     background: linear-gradient(180deg, #D31D05 0%, #B51500 100%);
 }
+
+.transparent-btn {
+    border: 1px solid white;
+    padding: 21px 28px;
+}
+
+.transparent-btn:hover {
+    border-image: linear-gradient(92deg, #D31D05 0%, #D040B4 100%) 1;
+}
+
+.transparent-btn::after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: white;
+    opacity: 16%;
+    height: 0px;
+    width: 0px;
+    content: '';
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: 0.3s ease-out;
+}
+
+.transparent-btn:hover::after {
+    height: 60px;
+    width: 60px;
+}
+
+@media screen and (max-width: 1699.9px) {
+    .transparent-btn {
+        padding: 19px 26px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1499.9px) {
+    .global-btn {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1399.9px) {
+    .global-btn {
+        font-size: 16px;
+    }
+
+    .blue-btn {
+        padding: 18px 38px;
+    }
+
+    .red-btn {
+        padding: 18px 34px;
+    }
+}
+
+@media screen and (max-width: 1199.9px) {
+    .global-btn {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 767.9px) {
+    .blue-btn, .red-btn {
+        padding: 15px 32px;
+    }
+    
+    .transparent-btn {
+        padding: 16px 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .blue-btn, .red-btn {
+        padding: 13px 28px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .blue-btn, .red-btn {
+        padding: 13px 20px;
+    }
+}

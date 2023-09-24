@@ -30,6 +30,12 @@ const images = {
     like4: require('./images/like-4.png'),
 
     androidIcon: require('./images/android-store.png'),
+
+    // Explore Games Page
+    gameSMIcon1: require('./images/welcome-sm-1.png'),
+    gameSMIcon2: require('./images/welcome-sm-2.png'),
+    gameSMIcon3: require('./images/welcome-sm-3.png'),
+    gameSMIcon4: require('./images/welcome-sm-4.png'),    
 }
 
 export default images;

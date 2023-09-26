@@ -8,6 +8,9 @@ const images = {
     // Home Page
     bannerImg1: require('./images/home-banner-img-1.png'),
     bannerImg2: require('./images/home-banner-img-2.png'),
+    dbImg: require('../assets/images/db-img.png'),
+    mb1: require('../assets/images/mb-1.png'),
+    mb2: require('../assets/images/mb-2.png'),
 
     // Game Details Page
     gameIcon: require('./images/game-icon.png'),
@@ -35,7 +38,7 @@ const images = {
     gameSMIcon1: require('./images/welcome-sm-1.png'),
     gameSMIcon2: require('./images/welcome-sm-2.png'),
     gameSMIcon3: require('./images/welcome-sm-3.png'),
-    gameSMIcon4: require('./images/welcome-sm-4.png'),    
+    gameSMIcon4: require('./images/welcome-sm-4.png'),
 }
 
 export default images;

@@ -19,8 +19,103 @@ body {
     background-color: black;
 }
 
-@media (min-width: 1700px) {
+.global-heading {
+    font-size: 46px;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.global-para {
+    font-size: 26px;
+    font-family: GadugiRegular, sans-serif;
+    text-align: center;
+    margin-bottom: 51px;
+}
+
+.global-para span {
+    font-family: GadugiRegular, sans-serif;
+}
+
+.color-red {
+    color: #D31D05;
+}
+
+@media screen and (min-width: 1700px) {
     .container{
         max-width: 1644px;
+    }
+}
+
+@media screen and (max-width: 1699.9px) {
+    .global-heading {
+        font-size: 42px;
+        margin-bottom: 10px;
+    }
+
+    .global-para {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1399.9px) {
+    .global-heading {
+        font-size: 36px;
+        margin-bottom: 6px;
+    }
+
+    .global-para {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 1199.9px) {
+    .global-heading {
+        font-size: 34px;
+    }
+
+    .global-para {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 575.9px) {
+    .global-heading {
+        font-size: 32px;
+    }
+
+    .global-para {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    /* Devs Section */
+    .devs {
+        padding-bottom: 30px;
+    }
+
+    .devs-card {
+        padding-top: 42px;
+    }
+
+    .devs-card .name {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .global-heading {
+        font-size: 28px;
+    }
+
+    .global-para {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .global-heading {
+        font-size: 26px;
     }
 }

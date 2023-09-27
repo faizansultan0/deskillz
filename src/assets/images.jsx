@@ -11,6 +11,9 @@ const images = {
     dbImg: require('../assets/images/db-img.png'),
     mb1: require('../assets/images/mb-1.png'),
     mb2: require('../assets/images/mb-2.png'),
+    loyalty: require('../assets/images/loyalty-img.png'),
+    coming1: require('../assets/images/coming-1.png'),
+    coming2: require('../assets/images/coming-2.png'),
 
     // Game Details Page
     gameIcon: require('./images/game-icon.png'),

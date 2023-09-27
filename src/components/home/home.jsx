@@ -35,6 +35,61 @@ const Home = () => {
             }
         ]
     }
+
+    let comingSliderSettings = {
+        slidesToShow: 3.4,
+        slidesToScroll: 1,
+        arrows: false, 
+        dots: false,
+        centerMode: false,
+        infinite: false,
+        speed: 500,
+        responsive: [
+            {
+                breakpoint: 1399,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 2.6,
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1.5,
+                }
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    slidesToShow: 1.3,
+                }
+            },
+            {
+                breakpoint: 440,
+                settings: {
+                    slidesToShow: 1.1,
+                }
+            },
+            {
+                breakpoint: 360,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+        ]
+    }
+
     return (
         <Layout>
             <section className="banner">
@@ -242,6 +297,105 @@ const Home = () => {
                                 </Col>
                             </Row>
                         </div>
+                    </div>
+                </Container>
+            </section>
+
+            <section className="loyalty-section">
+                <Container>
+                    <div className="content" id='loyalty-content'>
+                        <Row>
+                            <Col lg={8} >
+                                <div className="left-part">
+                                    <h3 className="general-heading">Loyalty Program</h3>
+                                    <p className="sm-para">Etiam tincidunt vitae purus ac tempus. Ut tempor cursus velit at dignissim. Aenean efficitur arcu risus, ac interdum enim interdum non. Suspendisse ornare augue libero, vel lobortis libero pretium vitae.</p>
+                                    <ul className="loyalty-ul">
+                                        <li className="loyalty-li">Etiam ac nunc tempus, accumsan velit vitae, tristique nulla </li>
+                                        <li className="loyalty-li">Integer vestibulum metus a massa tristique consectetur</li>
+                                        <li className="loyalty-li">Sed et nisi id diam condimentum porttitor</li>
+                                    </ul>
+                                    <GlobalButton type='blue-btn' text='Let the Game Begin' />
+                                </div>
+                            </Col>
+                            <Col lg={4} className='text-dark d-lg-block d-none'>
+                                <div className="right-part">
+                                    <div className="img-div">
+                                        <img src={images.loyalty} alt="Loyalty" className="img" />
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
+                </Container>
+            </section>
+
+            <section className="coming-section">
+                <Container>
+                    <h3 className="general-heading text-center">What’s Coming For You</h3>
+                    <p className="sm-para text-center">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci</p>
+                    <div className="coming-cards">
+                        <Slider {...comingSliderSettings}>
+                            <div className="coming-card-parent">
+                                <div className="coming-card">
+                                    <div className="img-div">
+                                        <img src={images.coming1} alt="Coming" className="img" />
+                                    </div>
+                                    <h4 className="title">Big Buck Hunter: Marksman mobile game version exclusively on Deskillz’</h4>
+                                    <span className="author">by Deskillz on Blog Posts</span>
+                                    <p className="para">Play Mechanix, Creator of the Big Buck Hunter: Marksman Mobile Game, Recognized As The Year’s “Best In Class” Developer Honored for Creativity, Innovation, and Growth on Skillz’ Platform Recognizing the talents of its developer community that builds highly competitive game experiences for everyone. Recognizing the talents of its developer community that builds highly competitive game experiences for everyoneRecognizing</p>
+                                </div>
+                            </div>
+                            <div className="coming-card-parent">
+                                <div className="coming-card">
+                                    <div className="img-div">
+                                        <img src={images.coming2} alt="Coming" className="img" />
+                                    </div>
+                                    <h4 className="title">Big Buck Hunter: Marksman mobile game version exclusively on Deskillz’</h4>
+                                    <span className="author">by Deskillz on Blog Posts</span>
+                                    <p className="para">Play Mechanix, Creator of the Big Buck Hunter: Marksman Mobile Game, Recognized As The Year’s “Best In Class” Developer Honored for Creativity, Innovation, and Growth on Skillz’ Platform Recognizing the talents of its developer community that builds highly competitive game experiences for everyone</p>
+                                </div>
+                            </div>
+                            <div className="coming-card-parent">
+                                <div className="coming-card">
+                                    <div className="img-div">
+                                        <img src={images.coming1} alt="Coming" className="img" />
+                                    </div>
+                                    <h4 className="title">Big Buck Hunter: Marksman mobile game version exclusively on Deskillz’</h4>
+                                    <span className="author">by Deskillz on Blog Posts</span>
+                                    <p className="para">Play Mechanix, Creator of the Big Buck Hunter: Marksman Mobile Game, Recognized As The Year’s “Best In Class” Developer Honored for Creativity, Innovation, and Growth on Skillz’ Platform Recognizing the talents of its developer community that builds highly competitive game experiences for everyone</p>
+                                </div>
+                            </div>
+                            <div className="coming-card-parent">
+                                <div className="coming-card">
+                                    <div className="img-div">
+                                        <img src={images.coming2} alt="Coming" className="img" />
+                                    </div>
+                                    <h4 className="title">Big Buck Hunter: Marksman mobile game version exclusively on Deskillz’</h4>
+                                    <span className="author">by Deskillz on Blog Posts</span>
+                                    <p className="para">Play Mechanix, Creator of the Big Buck Hunter: Marksman Mobile Game, Recognized As The Year’s “Best In Class” Developer Honored for Creativity, Innovation, and Growth on Skillz’ Platform Recognizing the talents of its developer community that builds highly competitive game experiences for everyone</p>
+                                </div>
+                            </div>
+                            <div className="coming-card-parent">
+                                <div className="coming-card">
+                                    <div className="img-div">
+                                        <img src={images.coming1} alt="Coming" className="img" />
+                                    </div>
+                                    <h4 className="title">Big Buck Hunter: Marksman mobile game version exclusively on Deskillz’</h4>
+                                    <span className="author">by Deskillz on Blog Posts</span>
+                                    <p className="para">Play Mechanix, Creator of the Big Buck Hunter: Marksman Mobile Game, Recognized As The Year’s “Best In Class” Developer Honored for Creativity, Innovation, and Growth on Skillz’ Platform Recognizing the talents of its developer community that builds highly competitive game experiences for everyone</p>
+                                </div>
+                            </div>
+                            <div className="coming-card-parent">
+                                <div className="coming-card">
+                                    <div className="img-div">
+                                        <img src={images.coming2} alt="Coming" className="img" />
+                                    </div>
+                                    <h4 className="title">Big Buck Hunter: Marksman mobile game version exclusively on Deskillz’</h4>
+                                    <span className="author">by Deskillz on Blog Posts</span>
+                                    <p className="para">Play Mechanix, Creator of the Big Buck Hunter: Marksman Mobile Game, Recognized As The Year’s “Best In Class” Developer Honored for Creativity, Innovation, and Growth on Skillz’ Platform Recognizing the talents of its developer community that builds highly competitive game experiences for everyone</p>
+                                </div>
+                            </div>
+                        </Slider>
                     </div>
                 </Container>
             </section>

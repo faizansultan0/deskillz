@@ -313,6 +313,121 @@
     padding: 22px 55px;
 }
 
+/* Loyalty Section */
+.loyalty-section {
+    background-color: white;
+    padding: 76px 0 123px;
+}
+
+.general-heading {
+    font-size: 50px;
+    margin-bottom: 35px;
+    color: black;
+}
+
+.loyalty-section .sm-para {
+    color: black;
+    width: 90%;
+    margin-bottom: 45px;
+}
+
+.loyalty-section .loyalty-ul {
+    list-style: none;
+}
+
+.loyalty-section .loyalty-li {
+    color: black;
+    font-family: GadugiRegular, sans-serif;
+    font-size: 22px;
+    margin-bottom: 43px;
+    position: relative;
+}
+
+.loyalty-section .loyalty-li::before {
+    background: url('../../assets/images/tick-icon.png') center /100% 100%;
+    content: '';
+    width: 30px;
+    height: 24px;
+    position: absolute;
+    left: -40px;
+    top: 7px;
+}
+
+.loyalty-section .right-part {
+    padding-top: 44px;
+}
+
+.loyalty-section .img {
+    width: 100%;
+}
+
+/* Coming Section */
+.coming-section {
+    background-color: #F5F5F5;
+    padding: 81px 0 117px;
+}
+
+.coming-section .general-heading {
+    margin-bottom: 15px;
+}
+
+.coming-section .sm-para {
+    margin-bottom: 50px;
+}
+
+.coming-section .sm-para, .coming-card .title, .coming-card .para {
+    color: black;
+}
+
+.coming-card-parent {
+    padding-right: 30px;
+}
+
+.coming-card {
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 12px 12px 53px;
+    overflow: hidden;
+}
+
+.coming-card .img-div {
+    height: 232px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 23px;
+}
+
+.coming-card .img {
+    height: 100%;
+}
+
+.coming-card .title {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.coming-card .author {
+    color: #D31D05;
+    display: block;
+    font-family: GadugiRegular, sans-serif;
+    font-size: 16px;
+    margin-bottom: 19px;
+}
+
+.coming-card .para {
+    font-family: GadugiRegular, sans-serif;
+    font-size: 16px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6; /* start showing ellipsis when 3rd line is reached */
+    white-space: pre-wrap; /* let the text wrap preserving spaces */
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+}
+
 @media screen and (max-width: 1920px) {
     /* Devs Section */
     .devs-card .top-part {
@@ -432,6 +547,39 @@
 
     .mode-cards .center-content .transparent-btn {
         padding: 18px 48px;
+    }
+
+    /* Loyalty Section */
+    .loyalty-section .sm-para {
+        margin-bottom: 38px;
+    }
+
+    .loyalty-section .loyalty-li {
+        font-size: 19px;
+    }
+
+    .loyalty-section .loyalty-li::before {
+        width: 24px;
+        height: 18px;
+        left: -31px;
+    }
+
+    /* Coming Section */
+    .coming-card {
+        padding-bottom: 24px;
+    }
+
+    .coming-card .img-div {
+        height: 190px;
+        margin-bottom: 18px;
+    }
+
+    .coming-card .title {
+        margin-bottom: 10px;
+    }
+
+    .coming-card .author {
+        margin-bottom: 14px;
     }
 }
 
@@ -574,6 +722,50 @@
         padding: 14px 43px;
         font-size: 15px;
     }
+
+    /* Loyalty Section */
+    .general-heading {
+        font-size: 42px;
+        margin-bottom: 24px;
+    }
+
+    .loyalty-section .sm-para {
+        width: 92%;
+        margin-bottom: 24px;
+    }
+
+    .loyalty-section .loyalty-li {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    /* Coming Section */
+    .coming-section {
+        padding: 70px 0 100px;
+    }
+
+    .coming-section .general-heading {
+        margin-bottom: 10px;
+    }
+
+    .coming-section .sm-para {
+        margin-bottom: 30px;
+    }
+
+    .coming-card .title {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+
+    .coming-card .author {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+    .coming-card .para {
+        font-size: 14px;
+        -webkit-line-clamp: 5;
+    }
 }
 
 @media screen and (max-width: 1199.9px) {
@@ -698,6 +890,27 @@
         padding: 13px 38px;
         font-size: 14px;
     }
+
+    /* Loyalty Section */
+    .general-heading {
+        font-size: 40px;
+        margin-bottom: 18px;
+    }
+
+    .loyalty-section .sm-para {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .loyalty-section .loyalty-li {
+        font-size: 17px;
+        margin-bottom: 24px;
+    }
+
+    .loyalty-section .loyalty-li::before {
+        width: 20px;
+        height: 14px;
+    }
 }
 
 @media screen and (max-width: 991.9px) {
@@ -779,9 +992,14 @@
     .mode-cards .center-content {
         padding-top: 20px;
     }
+
+    /* Loyalty Section */
+    .loyalty-section {
+        padding: 70px 0 80px;
+    }
 }
 
-@media screen and (max-width: 576.9px) {
+@media screen and (max-width: 575.9px) {
     .banner {
         height: 550px;
     }
@@ -812,6 +1030,35 @@
 
     .ready-section .slick-initialized .slick-slide {
         padding: 0px 156px;
+    }
+
+    /* Loyalty Section */
+    .loyalty-section {
+        padding: 60px 0 70px;
+    }
+
+    .general-heading {
+        font-size: 36px;
+        margin-bottom: 16px;
+    }
+
+    .loyalty-section .loyalty-li {
+        font-size: 16px;
+    }
+
+    /* Coming Section */
+    .coming-section {
+        padding: 60px 0 80px;
+    }
+
+    .coming-card .img-div {
+        margin-bottom: 14px;
+        height: 170px;
+    }
+
+    .coming-card .title {
+        font-size: 15px;
+        margin-bottom: 4px;
     }
 }
 
@@ -882,6 +1129,34 @@
     .ready-section .slick-initialized .slick-slide {
         padding: 0px 1.7%;
     }
+
+    /* Loyalty Section */
+    .loyalty-section {
+        padding: 50px 0 56px;
+    }
+
+    .general-heading {
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+
+    .loyalty-section .loyalty-li {
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+
+    /* Coming Section */
+    .coming-section {
+        padding: 44px 0 50px;
+    }
+
+    .coming-section .general-heading {
+        margin-bottom: 6px;
+    }
+
+    .coming-section .sm-para {
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -931,10 +1206,24 @@
         font-size: 12px;
     }
 
-        /* Ready Section */
-        .ready-section .slick-initialized .slick-slide {
-            padding: 0px 1%;
-        }
+    /* Ready Section */
+    .ready-section .slick-initialized .slick-slide {
+        padding: 0px 1%;
+    }
+
+    /* Loyalty Section */
+    .loyalty-section {
+        padding: 40px 0 44px;
+    }
+
+    .general-heading {
+        font-size: 28px;
+    }
+
+    /* Coming Section */
+    .coming-card-parent {
+        padding-right: 20px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -945,5 +1234,10 @@
 
     .ready-section .slick-initialized .slick-slide {
         padding: 0px 0.7%;
+    }
+
+    /* Coming Section */
+    .coming-card .img-div {
+        height: 120px;
     }
 }

@@ -120,6 +120,85 @@
     font-size: 24px;
 }
 
+/* Popular Cards */
+.popular-games {
+    padding-bottom: 100px;
+}
+
+.popular-card-parent {
+    padding-right: 24px;
+}
+
+.popular-card {
+    position: relative;
+}
+
+.popular-card .img-div {
+    height: 460px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular-card .img-div::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(181deg, #00000000 0%, #000000 100%);
+}
+
+.popular-card .img-div img {
+    border-radius: 10px;
+    min-height: 100%;
+    min-width: 100%;
+    max-width: 120%;
+}
+
+.popular-card .info-div {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+    width: 100%;
+}
+
+.popular-card .prf-img-div {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular-card .prf-img-div img {
+    width: 100%;
+}
+
+.popular-card .info-div .text-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.popular-card .info-div .title {
+    font-size: 20px;
+}
+
+.popular-card .info-div .sm-line {
+    font-family: GadugiRegular, sans-serif;
+}
+
 @media screen and (max-width: 1699.9px) {
     /* Featured Section */
     .featured-card .title {
@@ -130,6 +209,28 @@
     .featured-card .img-div {
         height: 180px;
         width: 250px;
+    }
+
+    /* Popular Cards */
+    .popular-card .img-div {
+        height: 380px;
+    }
+
+    .popular-card .prf-img-div {
+        width: 60px;
+        height: 60px;
+    }
+
+    .popular-card .info-div {
+        gap: 12px;
+    }
+
+    .popular-card .info-div .title {
+        font-size: 18px;
+    }
+
+    .popular-card .info-div .sm-line {
+        font-size: 15px;
     }
 }
 
@@ -145,6 +246,11 @@
 
     .top-part .top-part-link {
         font-size: 17px;
+    }
+
+    .featured-games {
+        padding-bottom: 60px;
+        padding-top: 110px;
     }
 
     .featured-cards .featured-card-parent {
@@ -194,13 +300,21 @@
     .featured-card .link {
         font-size: 22px;
     }
+
+    /* Popular Cards */
+    .popular-games {
+        padding-bottom: 84px;
+    }
+
+    .popular-card .img-div {
+        height: 340px;
+    }
 }
 
 @media screen and (max-width: 1199.9px) {
     /* Featured Section */
     .featured-games {
-        padding-top: 130px;
-        padding-bottom: 90px;
+        padding-bottom: 46px;
     }
 
     .featured-card .img-div {
@@ -216,13 +330,18 @@
         font-size: 14px;
         margin-bottom: 14px;
     }
+
+    /* Popular Cards */
+    .featured-games {
+        padding-bottom: 56px;
+    }
 }
 
 @media screen and (max-width: 991.9px) {
     /* Featured Section */
     .featured-games {
         padding-top: 110px;
-        padding-bottom: 80px;
+        padding-bottom: 40px;
     }
 
     .top-part .top-part-link {
@@ -262,12 +381,80 @@
     .sm-btn {
         padding: 10px 26px!important;
     }
+
+    /* Popular Cards */
+    .popular-games {
+        padding-bottom: 50px;
+    }
+
+    .popular-card-parent {
+        padding-right: 16px;
+    }
+
+    .popular-card .img-div {
+        height: 320px;
+    }
+
+    .popular-card .info-div {
+        gap: 10px;
+    }
+
+    .popular-card .prf-img-div {
+        width: 50px;
+        height: 50px;
+    }
+
+    .popular-card .info-div .title {
+        font-size: 16px;
+    }
+
+    .popular-card .info-div .sm-line {
+        font-size: 13px;
+    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.9px) {
     /* Featured Section */
     .featured-games {
-        padding-bottom: 70px;
+        padding-bottom: 36px;
+    }
+
+    /* Popular Cards */
+    .popular-games {
+        padding-bottom: 40px;
+    }
+
+    .popular-card .img-div {
+        height: 290px;
+    }
+
+    .popular-card .prf-img-div {
+        width: 40px;
+        height: 40px;
+    }
+
+    .popular-card .info-div .title {
+        font-size: 14px;
+    }
+
+    .popular-card .info-div .sm-line {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 575.9px) {
+    /* Featured Games */
+    .featured-games {
+        padding-top: 90px;
+    }
+
+    /* Popular Cards */
+    .popular-card .img-div {
+        height: 260px;
+    }
+
+    .popular-card .info-div {
+        padding: 12px;
     }
 }
 
@@ -299,6 +486,15 @@
 
     .explore-page .slick-dots li button:before {
         font-size: 4px;
+    }
+
+    /* Popular Cards */
+    .popular-card-parent {
+        padding-right: 12px;
+    }
+    
+    .popular-card .img-div {
+        height: 210px;
     }
 }
 

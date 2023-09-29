@@ -66,6 +66,52 @@ const Explore = () => {
             }
         ]
     }
+
+    let popularSliderSettings = {
+        arrows: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: false,
+        dots: false,
+        responsive: [
+            {
+                breakpoint: 1399,
+                settings: {
+                    slidesToShow: 3.6,
+                }
+            },
+            {
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 2.5,
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1.8
+                }
+            },
+            {
+                breakpoint: 380,
+                settings: {
+                    slidesToShow: 1.2
+                }
+            }
+        ]
+    }
     return (
         <Layout>
             <div className="explore-page">
@@ -171,6 +217,102 @@ const Explore = () => {
                                     </div>
                                 </Slider>
                             </div>
+                        </div>
+                    </Container>
+                </section>
+
+                <section className="popular-games">
+                    <Container>
+                        <div className="top-part">
+                            <h3 className="global-heading">Most Popular</h3>
+                        </div>
+                        <div className="popular-cards">
+                            <Slider {...popularSliderSettings}>
+                                <div className="popular-card-parent">
+                                    <div className="popular-card">
+                                        <div className="img-div">
+                                            <img src={ images.fortnitelarge } alt="Fortnite" />
+                                        </div>
+                                        <div className="info-div">
+                                            <div className="prf-img-div">
+                                                <img src={ images.fortniteprofile } alt="Fortnite Profile" />
+                                            </div>
+                                            <div className="text-info">
+                                                <span className="title">Fortnite</span>
+                                                <span className="sm-line">Save the World</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="popular-card-parent">
+                                    <div className="popular-card">
+                                        <div className="img-div">
+                                            <img src={ images.subwaylarge } alt="Subway Surfers" />
+                                        </div>
+                                        <div className="info-div">
+                                            <div className="prf-img-div">
+                                                <img src={ images.subwayprofile } alt="Subway Surfers Profile" />
+                                            </div>
+                                            <div className="text-info">
+                                                <span className="title">Subway Surfers</span>
+                                                <span className="sm-line">Travel into the World</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="popular-card-parent">
+                                    <div className="popular-card">
+                                        <div className="img-div">
+                                            <img src={ images.fortnitelarge } alt="Fortnite" />
+                                        </div>
+                                        <div className="info-div">
+                                            <div className="prf-img-div">
+                                                <img src={ images.fortniteprofile } alt="Fortnite Profile" />
+                                            </div>
+                                            <div className="text-info">
+                                                <span className="title">Fortnite</span>
+                                                <span className="sm-line">Save the World</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="popular-card-parent">
+                                    <div className="popular-card">
+                                        <div className="img-div">
+                                            <img src={ images.subwaylarge } alt="Subway Surfers" />
+                                        </div>
+                                        <div className="info-div">
+                                            <div className="prf-img-div">
+                                                <img src={ images.subwayprofile } alt="Subway Surfers Profile" />
+                                            </div>
+                                            <div className="text-info">
+                                                <span className="title">Subway Surfers</span>
+                                                <span className="sm-line">Travel into the World</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="popular-card-parent">
+                                    <div className="popular-card">
+                                        <div className="img-div">
+                                            <img src={ images.fortnitelarge } alt="Fortnite" />
+                                        </div>
+                                        <div className="info-div">
+                                            <div className="prf-img-div">
+                                                <img src={ images.fortniteprofile } alt="Fortnite Profile" />
+                                            </div>
+                                            <div className="text-info">
+                                                <span className="title">Fortnite</span>
+                                                <span className="sm-line">Save the World</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Slider>
                         </div>
                     </Container>
                 </section>

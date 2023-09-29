@@ -32,11 +32,11 @@
     font-family: GadugiBold;
 }
 
-.header .nav-item .nav-link:hover {
+.header .nav-item .nav-link:hover, .header .navbar .nav-item .active {
     color: #D31D05;
 }
 
-.header .nav-link::after {
+.header .nav-link::after, .header .nav-item .active::after {
     position: absolute;
     left: 0;
     bottom: -2px;
@@ -48,6 +48,10 @@
 }
 
 .header .nav-link:hover::after {
+    width: 100%;
+}
+
+.header .nav-item .active::after {
     width: 100%;
 }
 
@@ -101,6 +105,14 @@
 
     .header .nav-item:last-child {
         border: none;
+    }
+
+    .header .navbar .nav-item .active {
+        color: white;
+    }
+
+    .header .nav-item .active::after {
+        display: none;
     }
 }
 

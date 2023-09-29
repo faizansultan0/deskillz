@@ -77,6 +77,13 @@
     width: 60px;
 }
 
+.sm-btn {
+    padding: 11px 37px!important;
+}
+.sm-btn::after {
+    display: none;
+}
+
 @media screen and (max-width: 1699.9px) {
     .transparent-btn {
         padding: 19px 26px;
@@ -87,6 +94,10 @@
 @media screen and (max-width: 1499.9px) {
     .global-btn {
         font-size: 17px;
+    }
+
+    .sm-btn {
+        padding: 12px 30px!important;
     }
 }
 

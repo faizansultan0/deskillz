@@ -1,0 +1,327 @@
+.explore-page {
+    background: linear-gradient(110deg, #000000 0%, #1D070F 100%);
+}
+
+/* Featured Section */
+
+.featured-games {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+.explore-page .top-part {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+    margin-bottom: 40px;
+
+}
+
+.top-part .global-heading {
+    margin-bottom: 0;
+}
+
+.top-part .top-part-link {
+    font-family: GadugiRegular, sans-serif;
+    color: #D11D15;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+
+.explore-page .slick-dots li button:before {
+    color: white;
+    opacity: 0.4;
+}
+
+.explore-page .slick-dots li.slick-active button:before {
+    color: white;
+    opacity: 1;
+    font-size: 12px;
+}
+
+.explore-page .slick-dots {
+    text-align: right;
+    top: -60px;
+    bottom: unset;
+}
+
+.explore-page .slick-dots li {
+    width: 14px;
+}
+
+.explore-page .slick-dots li button:before {
+    font-size: 10px;
+    width: 10px;
+    height: 10px;
+}
+
+.featured-cards .slick-list {
+    overflow: visible;
+}
+
+.featured-cards .featured-card-parent {
+    padding-right: 24px;
+}
+
+.featured-cards .featured-card {
+    border: 1px solid #FFFFFF99;
+    display: flex;
+    gap: 24px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.featured-cards .featured-card:hover {
+    border-color: #D11D15;
+}
+
+.featured-card .img-div {
+    width: 234px;
+    height: 190px;
+    overflow: hidden;
+    border-radius: 14px;
+}
+
+.featured-card .img-div img {
+    width: 100%;
+    min-height: 100%;
+    max-height: 120%;
+    border-radius: 14px;
+}
+
+.featured-card .title {
+    min-height: 76px;
+    font-size: 30px;
+    margin-bottom: 13px;
+}
+
+.featured-card .sm-line {
+    opacity: 60%;
+    font-family: GadugiRegular, sans-serif;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.featured-card .bottom-part {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.featured-card .links {
+    display: flex;
+    gap: 20px;
+}
+
+.featured-card .link {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 1699.9px) {
+    /* Featured Section */
+    .featured-card .title {
+        font-size: 26px;
+        min-height: 70px;
+    }
+
+    .featured-card .img-div {
+        height: 180px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 1399.9px) {
+    /* Featured Section */
+    .explore-page .top-part {
+        gap: 14px;
+    }
+
+    .explore-page .top-part {
+        margin-bottom: 30px;
+    }
+
+    .top-part .top-part-link {
+        font-size: 17px;
+    }
+
+    .featured-cards .featured-card-parent {
+        padding-right: 18px;
+    }
+
+    .featured-cards .featured-card {
+        padding: 16px;
+        gap: 14px;
+    }
+
+    .featured-card .img-div {
+        height: 154px;
+    }
+
+    .featured-card .title {
+        font-size: 24px;
+        min-height: 58px;
+        margin-bottom: 6px;
+    }
+
+    .featured-card .sm-line {
+        font-size: 15px;
+        margin-bottom: 18px;
+    }
+
+    .explore-page .slick-dots li {
+        width: 10px;
+    }
+
+    .explore-page .slick-dots li.slick-active button:before {
+        font-size: 10px;
+    }
+
+    .explore-page .slick-dots li button:before {
+        font-size: 7px;
+    }
+
+    .featured-card .bottom-part {
+        gap: 15px;
+    }
+
+    .featured-card .links {
+        gap: 16px;
+    }
+
+    .featured-card .link {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1199.9px) {
+    /* Featured Section */
+    .featured-games {
+        padding-top: 130px;
+        padding-bottom: 90px;
+    }
+
+    .featured-card .img-div {
+        height: 140px;
+    }
+
+    .featured-card .title {
+        font-size: 22px;
+        min-height: 54px;
+    }
+
+    .featured-card .sm-line {
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+}
+
+@media screen and (max-width: 991.9px) {
+    /* Featured Section */
+    .featured-games {
+        padding-top: 110px;
+        padding-bottom: 80px;
+    }
+
+    .top-part .top-part-link {
+        font-size: 16px;
+    }
+    
+    .explore-page .slick-dots li {
+        width: 4px;
+    }
+
+    .featured-cards .featured-card-parent {
+        padding-right: 14px;
+    }
+
+    .featured-cards .featured-card {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .featured-card .img-div {
+        height: 136px;
+    }
+
+    .featured-card .title {
+        font-size: 20px;
+        min-height: 50px;
+    }
+
+    .featured-card .sm-line {
+        font-size: 13px;
+    }
+
+    .featured-card .bottom-part {
+        gap: 8px;
+    }
+
+    .sm-btn {
+        padding: 10px 26px!important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Featured Section */
+    .featured-games {
+        padding-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Featured Section */
+    .explore-page .top-part {
+        gap: 4px;
+    }
+
+    .global-heading {
+        font-size: 24px;
+    }
+
+    .top-part .top-part-link {
+        font-size: 14px;
+    }
+
+    .explore-page .slick-dots {
+        top: -54px;
+    }
+
+    .explore-page .slick-dots li {
+        width: 2px;
+    }
+
+    .explore-page .slick-dots li.slick-active button:before {
+        font-size: 7px;
+    }
+
+    .explore-page .slick-dots li button:before {
+        font-size: 4px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    /* Featured Section */
+    .featured-games {
+        padding-top: 80px;
+    }
+
+    .top-part .top-part-link {
+        font-size: 12px;
+    }
+
+    .featured-cards .featured-card-parent {
+        padding-right: 10px;
+    }
+
+    .featured-cards .featured-card {
+        padding: 6px;
+        gap: 6px;
+    }
+
+    .explore-page .slick-dots {
+        top: -36px;
+    }
+}

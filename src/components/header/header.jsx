@@ -1,7 +1,6 @@
 import { Container, Navbar, Nav } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-// import { Player, Controls } from '@lottiefiles/react-lottie-player';
-// import StackPlayer from '../../assets/lottiePlayer/stack.json'
+import { Link, NavLink } from 'react-router-dom';
+// import { Player } from '@lottiefiles/react-lottie-player';
 import images from '../../assets/images';
 import './header.css';
 
@@ -22,23 +21,23 @@ const Header = () => {
                             <Navbar.Collapse id="basic-navbar-nav">
                                 <Nav className="me-auto" >
                                     <Nav.Item>
-                                        <Link className='nav-link' to="/">Home</Link>
+                                        <NavLink className='nav-link' to="/">Home</NavLink>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Link className='nav-link' to="/explore">Developers</Link>
+                                        <NavLink className='nav-link' to="/explore">Developers</NavLink>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Link className='nav-link' to="/game-details">Players</Link>
+                                        <NavLink className='nav-link' to="/game-details">Players</NavLink>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Link className='nav-link' to="#link">About Us</Link>
+                                        <NavLink className='nav-link' to="/about">About Us</NavLink>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Link className='nav-link' to="#link">News</Link>
+                                        <NavLink className='nav-link' to="/news">News</NavLink>
                                     </Nav.Item>
                                     {/* <Nav.Item>
                                         <Player
-                                            src={ StackPlayer }
+                                            src={ require('../../assets/lottiePlayer/stack.json') }
                                             background="transparent" speed={1}
                                             style={{ width: "175px", height: "50px" }}
                                             loop autoplay>Stack

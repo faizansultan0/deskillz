@@ -112,6 +112,23 @@ const Explore = () => {
             }
         ]
     }
+
+    let newCardsSliderSettings = {
+        arrows: false,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: false,
+        dots: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    }
+
     return (
         <Layout>
             <div className="explore-page">
@@ -309,6 +326,97 @@ const Explore = () => {
                                                 <span className="title">Fortnite</span>
                                                 <span className="sm-line">Save the World</span>
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Slider>
+                        </div>
+                    </Container>
+                </section>
+
+                <section className="new-games">
+                    <Container>
+                        <div className="top-part">
+                            <h3 className="global-heading">New Games</h3>
+                        </div>
+                        <div className="new-cards">
+                            <Slider {...newCardsSliderSettings} >
+                                <div className="new-card-parent">
+                                    <div className="new-card">
+                                        <div className="lg-img-div">
+                                            <img src={images.callOfDutyLg} alt="Banner" />
+                                        </div>
+                                        <div className="bottom-part">
+                                            <div className="left-part">
+                                                <div className="sm-img-div">
+                                                    <img src={images.callOfDutySm} alt="Profile" />
+                                                </div>
+                                                <div className="text-info">
+                                                    <span className="title">Call of Duty Cold War ZOOMBIES</span>
+                                                    <span className="sm-line">A Great War of the Zoombies</span>
+                                                </div>
+                                            </div>
+                                            <GlobalButton type='blue-btn sm-btn' text='Play' />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="new-card-parent">
+                                    <div className="new-card">
+                                        <div className="lg-img-div">
+                                            <img src={images.chivalryLg} alt="Banner" />
+                                        </div>
+                                        <div className="bottom-part">
+                                            <div className="left-part">
+                                                <div className="sm-img-div">
+                                                    <img src={images.chivalrySm} alt="Profile" />
+                                                </div>
+                                                <div className="text-info">
+                                                    <span className="title">CHIVALRY II</span>
+                                                    <span className="sm-line">Online Medieval Warfare</span>
+                                                </div>
+                                            </div>
+                                            <GlobalButton type='blue-btn sm-btn' text='Play' />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="new-card-parent">
+                                    <div className="new-card">
+                                        <div className="lg-img-div">
+                                            <img src={images.callOfDutyLg} alt="Banner" />
+                                        </div>
+                                        <div className="bottom-part">
+                                            <div className="left-part">
+                                                <div className="sm-img-div">
+                                                    <img src={images.callOfDutySm} alt="Profile" />
+                                                </div>
+                                                <div className="text-info">
+                                                    <span className="title">Call of Duty Cold War ZOOMBIES</span>
+                                                    <span className="sm-line">A Great War of the Zoombies</span>
+                                                </div>
+                                            </div>
+                                            <GlobalButton type='blue-btn sm-btn' text='Play' />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="new-card-parent">
+                                    <div className="new-card">
+                                        <div className="lg-img-div">
+                                            <img src={images.chivalryLg} alt="Banner" />
+                                        </div>
+                                        <div className="bottom-part">
+                                            <div className="left-part">
+                                                <div className="sm-img-div">
+                                                    <img src={images.chivalrySm} alt="Profile" />
+                                                </div>
+                                                <div className="text-info">
+                                                    <span className="title">CHIVALRY II</span>
+                                                    <span className="sm-line">Online Medieval Warfare</span>
+                                                </div>
+                                            </div>
+                                            <GlobalButton type='blue-btn sm-btn' text='Play' />
                                         </div>
                                     </div>
                                 </div>

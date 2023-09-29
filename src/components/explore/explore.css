@@ -199,6 +199,79 @@
     font-family: GadugiRegular, sans-serif;
 }
 
+/* New Games Section */
+.new-games {
+    padding-bottom: 100px;
+}
+
+.new-card-parent {
+    padding-right: 24px;
+}
+
+.new-card {
+    padding: 20px;
+    border: 2px dashed #FE0021;
+    border-radius: 20px;
+}
+
+.new-card .lg-img-div {
+    height: 390px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.new-card .lg-img-div img {
+    width: 100%;
+    min-height: 100%;
+}
+
+.new-card .bottom-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.new-card .left-part {
+    display: flex;
+    gap: 24px;
+}
+
+.new-card .sm-img-div {
+    width: 95px;
+    height: 95px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-card .sm-img-div img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.new-card .text-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.new-card .title {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.new-card .sm-line {
+    font-size: 18px;
+    display: block;
+    font-family: GadugiRegular, sans-serif;
+    opacity: 0.8;
+}
+
+
 @media screen and (max-width: 1699.9px) {
     /* Featured Section */
     .featured-card .title {
@@ -230,6 +303,25 @@
     }
 
     .popular-card .info-div .sm-line {
+        font-size: 15px;
+    }
+
+    /* New Cards */
+    .new-card .lg-img-div {
+        height: 320px;
+        margin-bottom: 20px;
+    }
+
+    .new-card .left-part {
+        gap: 18px;
+    }
+
+    .new-card .title {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+
+    .new-card .sm-line {
         font-size: 15px;
     }
 }
@@ -309,6 +401,25 @@
     .popular-card .img-div {
         height: 340px;
     }
+
+    /* New Cards */
+    .new-card .lg-img-div {
+        height: 248px;
+    }
+
+    .new-card .sm-img-div {
+        width: 70px;
+        height: 70px;
+    }
+
+    .new-card .left-part {
+        gap: 10px;
+    }
+
+    .new-card .title {
+        font-size: 19px;
+        margin-bottom: 4px;
+    }
 }
 
 @media screen and (max-width: 1199.9px) {
@@ -334,6 +445,33 @@
     /* Popular Cards */
     .featured-games {
         padding-bottom: 56px;
+    }
+
+    /* New Cards */
+    .new-card-parent {
+        padding-right: 18px;
+    }
+
+    .new-card {
+        padding: 14px;
+    }
+
+    .new-card .lg-img-div {
+        height: 200px;
+    }
+
+    .new-card .left-part {
+        gap: 8px;
+    }
+
+    .new-card .sm-img-div {
+        width: 50px;
+        height: 50px;
+    }
+
+    .new-card .title {
+        font-size: 16px;
+        margin-bottom: 0;
     }
 }
 
@@ -384,7 +522,7 @@
 
     /* Popular Cards */
     .popular-games {
-        padding-bottom: 50px;
+        padding-bottom: 40px;
     }
 
     .popular-card-parent {
@@ -409,6 +547,35 @@
     }
 
     .popular-card .info-div .sm-line {
+        font-size: 13px;
+    }
+
+    /* New Cards */
+    .new-games {
+        padding-bottom: 50px;
+    }
+
+    .new-card-parent {
+        padding-right: 14px;
+    }
+
+    .new-card {
+        padding: 10px;
+    }
+
+    .new-card .lg-img-div {
+        height: 170px;
+    }
+
+    .new-card .left-part {
+        min-height: 65px;
+    }
+
+    .new-card .title {
+        font-size: 15px;
+    }
+
+    .new-card .sm-line {
         font-size: 13px;
     }
 }
@@ -439,6 +606,15 @@
 
     .popular-card .info-div .sm-line {
         font-size: 11px;
+    }
+
+    /* New Cards */
+    .new-card .lg-img-div {
+        height: 240px;
+    }
+
+    .new-card .left-part {
+        min-height: unset;
     }
 }
 
@@ -492,9 +668,20 @@
     .popular-card-parent {
         padding-right: 12px;
     }
-    
+
     .popular-card .img-div {
         height: 210px;
+    }
+}
+
+@media screen and (max-width: 433.9px) {
+    /* New Cards */
+    .new-card .lg-img-div {
+        height: 174px;
+    }
+
+    .new-card .left-part {
+        min-height: 65px;
     }
 }
 
@@ -519,5 +706,43 @@
 
     .explore-page .slick-dots {
         top: -36px;
+    }
+
+    /* New Cards */
+    .new-card .lg-img-div {
+        margin-bottom: 14px;
+    }
+}
+
+@media screen and (max-width: 344px) {
+    /* New Cards */
+    .new-games {
+        padding-bottom: 36px;
+    }
+    
+    .new-card .lg-img-div {
+        height: 170px;
+    }
+
+    .new-card .title {
+        font-size: 14px;
+    }
+
+    .new-card .left-part {
+        gap: 6px;
+    }
+
+    .new-card .sm-img-div {
+        width: 40px;
+        height: 40px;
+    }
+
+    .new-card .sm-line {
+        font-size: 10px;
+    }
+
+    .new-card .sm-btn {
+        padding: 9px 20px!important;
+        font-size: 13px;
     }
 }

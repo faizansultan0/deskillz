@@ -48,6 +48,10 @@ const images = {
     fortniteprofile: require('./images/fortnite-profile.jpeg'),
     subwaylarge: require('./images/subway-surfers.jpg'),
     subwayprofile: require('./images/subway-surfers-prf.png'),
+    callOfDutyLg: require('./images/callOfDutylg.jpg'),
+    callOfDutySm: require('./images/callOfDutysm.jpg'),
+    chivalryLg: require('./images/chivalryLg.jpg'),
+    chivalrySm: require('./images/chivalrysm.jpg'),
 }
 
 export default images;

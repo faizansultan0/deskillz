@@ -52,6 +52,8 @@ const images = {
     callOfDutySm: require('./images/callOfDutysm.jpg'),
     chivalryLg: require('./images/chivalryLg.jpg'),
     chivalrySm: require('./images/chivalrysm.jpg'),
+    coreKeeper: require('./images/coreKeeper.jpg'),
+    fruitCombo: require('./images/3fruitCombo.jpeg'),
 }
 
 export default images;

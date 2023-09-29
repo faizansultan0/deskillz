@@ -17,31 +17,31 @@ const Explore = () => {
         dots: true,
         responsive: [
             {
-                breakpoint: 1699,
+                breakpoint: 1700,
                 settings: {
                     slidesToShow: 2.6,
                 }
             },
             {
-                breakpoint: 1199,
+                breakpoint: 1200,
                 settings: {
                     slidesToShow: 2.3,
                 }
             },
             {
-                breakpoint: 991,
+                breakpoint: 992,
                 settings: {
                     slidesToShow: 1.9,
                 }
             },
             {
-                breakpoint: 767,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 1.5,
                 }
             },
             {
-                breakpoint: 575,
+                breakpoint: 576,
                 settings: {
                     slidesToShow: 1.4,
                 }
@@ -75,25 +75,25 @@ const Explore = () => {
         dots: false,
         responsive: [
             {
-                breakpoint: 1399,
+                breakpoint: 1400,
                 settings: {
                     slidesToShow: 3.6,
                 }
             },
             {
-                breakpoint: 1199,
+                breakpoint: 1200,
                 settings: {
                     slidesToShow: 3,
                 }
             },
             {
-                breakpoint: 991,
+                breakpoint: 992,
                 settings: {
                     slidesToShow: 2.5,
                 }
             },
             {
-                breakpoint: 767,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
                 }
@@ -124,6 +124,46 @@ const Explore = () => {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
+                }
+            }
+        ]
+    }
+
+    let genresCardsSettings = {
+        arrows: false,
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        infinite: false,
+        dots: false,
+        responsive: [
+            {
+                breakpoint: 1700,
+                settings: {
+                    slidesToShow: 5,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 4,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 340,
+                settings: {
+                    slidesToShow: 1.5,
                 }
             }
         ]
@@ -420,6 +460,71 @@ const Explore = () => {
                                         </div>
                                     </div>
                                 </div>
+                            </Slider>
+                        </div>
+                    </Container>
+                </section>
+
+                <section className="genres">
+                    <Container>
+                        <div className="top-part">
+                            <h4 className="global-heading">Explore Genres</h4>
+                            <Link className="top-part-link">Explore Genres</Link>
+                        </div>
+                        <div className="genres-cards">
+                            <Slider {...genresCardsSettings}>
+                            <div className="genres-card-parent">
+                                    <div className="genres-card">
+                                        <div className="img-div">
+                                            <img src={images.coreKeeper} alt="Core Keeper" />
+                                        </div>
+                                        <span className="title">ACTION</span>
+                                    </div>
+                                </div>
+                                
+                                <div className="genres-card-parent">
+                                    <div className="genres-card">
+                                        <div className="img-div">
+                                            <img src={images.fruitCombo} alt="Fruit Combo" />
+                                        </div>
+                                        <span className="title">ARCADE</span>
+                                    </div>
+                                </div>
+                                <div className="genres-card-parent">
+                                    <div className="genres-card">
+                                        <div className="img-div">
+                                            <img src={images.coreKeeper} alt="Core Keeper" />
+                                        </div>
+                                        <span className="title">ACTION</span>
+                                    </div>
+                                </div>
+                                
+                                <div className="genres-card-parent">
+                                    <div className="genres-card">
+                                        <div className="img-div">
+                                            <img src={images.fruitCombo} alt="Fruit Combo" />
+                                        </div>
+                                        <span className="title">ARCADE</span>
+                                    </div>
+                                </div>
+                                <div className="genres-card-parent">
+                                    <div className="genres-card">
+                                        <div className="img-div">
+                                            <img src={images.coreKeeper} alt="Core Keeper" />
+                                        </div>
+                                        <span className="title">ACTION</span>
+                                    </div>
+                                </div>
+                                
+                                <div className="genres-card-parent">
+                                    <div className="genres-card">
+                                        <div className="img-div">
+                                            <img src={images.fruitCombo} alt="Fruit Combo" />
+                                        </div>
+                                        <span className="title">ARCADE</span>
+                                    </div>
+                                </div>
+                                
                             </Slider>
                         </div>
                     </Container>

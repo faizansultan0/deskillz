@@ -271,6 +271,40 @@
     opacity: 0.8;
 }
 
+/* Genres Card */
+.genres {
+    padding-bottom: 154px;
+}
+
+.genres-card-parent {
+    padding-right: 24px;
+}
+
+.genres-card {
+    padding: 13px 10px 24px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.genres-card .img-div {
+    height: 260px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 23px;
+}
+
+.genres-card .img-div img {
+    width: 100%;
+    min-height: 100%;
+}
+
+.genres-card .title {
+    display: block;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+}
+
 
 @media screen and (max-width: 1699.9px) {
     /* Featured Section */
@@ -323,6 +357,24 @@
 
     .new-card .sm-line {
         font-size: 15px;
+    }
+
+    /* Genres Card */
+    .genres {
+        padding-bottom: 120px;
+    }
+
+    .genres-card {
+        padding: 12px 10px 19px;
+    }
+
+    .genres-card .img-div {
+        height: 236px;
+        margin-bottom: 8px;
+    }
+
+    .genres-card .title {
+        font-size: 20px;
     }
 }
 
@@ -420,6 +472,12 @@
         font-size: 19px;
         margin-bottom: 4px;
     }
+
+    /* Genre Cards */
+    .genres-card .img-div {
+        height: 200px;
+        margin-bottom: 6px;
+    }
 }
 
 @media screen and (max-width: 1199.9px) {
@@ -448,6 +506,10 @@
     }
 
     /* New Cards */
+    .new-games {
+        padding-bottom: 50px;
+    }
+
     .new-card-parent {
         padding-right: 18px;
     }
@@ -472,6 +534,24 @@
     .new-card .title {
         font-size: 16px;
         margin-bottom: 0;
+    }
+
+    /* Genres */
+    .genres {
+        padding-bottom: 80px;
+    }
+
+    .genres-card {
+        padding: 8px 6px 12px;
+    }
+
+    .genres-card .img-div {
+        height: 170px;
+        margin-bottom: 4px;
+    }
+
+    .genres-card .title {
+        font-size: 17px;
     }
 }
 
@@ -578,6 +658,11 @@
     .new-card .sm-line {
         font-size: 13px;
     }
+
+    /* Genre Cards */
+    .genres-card-parent {
+        padding-right: 14px;
+    }
 }
 
 @media screen and (max-width: 767.9px) {
@@ -631,6 +716,24 @@
 
     .popular-card .info-div {
         padding: 12px;
+    }
+
+    /* New Cards */
+    .new-games {
+        padding-bottom: 40px;
+    }
+
+    /* Genres */
+    .genres {
+        padding-bottom: 70px;
+    }
+
+    .genres-card .img-div {
+        height: 144px;
+    }
+
+    .genres-card .title {
+        font-size: 16px;
     }
 }
 
@@ -712,6 +815,11 @@
     .new-card .lg-img-div {
         margin-bottom: 14px;
     }
+
+    /* Genres */
+    .genres {
+        padding-bottom: 46px;
+    }
 }
 
 @media screen and (max-width: 344px) {
@@ -719,7 +827,7 @@
     .new-games {
         padding-bottom: 36px;
     }
-    
+
     .new-card .lg-img-div {
         height: 170px;
     }

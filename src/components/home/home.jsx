@@ -1,4 +1,4 @@
-import Layout from "../../layout";
+import Layout from "../../layouts/layout";
 import { Container, Row, Col } from "react-bootstrap";
 import GlobalButton from "../globalButton/globalButton";
 import { Player } from "@lottiefiles/react-lottie-player";

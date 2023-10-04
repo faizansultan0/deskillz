@@ -1,0 +1,218 @@
+.db-navbar-parent {
+    width: 10%;
+    background: url('../../assets/images/db-sidebar-bg.png') right bottom no-repeat, #D31D05;
+    height: 100vh;
+    padding: 39px 0 51px 20px;
+    width: 326px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: fixed;
+    background-attachment: fixed;
+    z-index: 2;
+}
+
+.db-navbar-parent .db-logo {
+    padding-left: 20px;
+    display: inline-block;
+    margin-bottom: 22px;
+}
+
+.db-logo .a {
+    display: inline-block;
+}
+
+.db-navbar-parent .db-logo img {
+    width: 172px;
+}
+
+.db-navbar-parent .navbar {
+    width: 100%;
+}
+
+.db-navbar-parent .nav-item {
+    padding: 10px 0;
+}
+
+.db-navbar-parent .navbar .nav-item .nav-link, .db-navbar-parent .navbar-nav .nav-link.active {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    color: white;
+    font-size: 20px;
+    padding: 14px 0px 14px 14px;
+    width: 100%;
+    font-family: GadugiRegular, sans-serif;
+}
+
+.db-navbar-parent .bottom-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 90%;
+}
+
+.db-navbar-parent .navbar-nav {
+    width: 100%;
+}
+
+.db-navbar-parent .navbar .nav-link {
+    position: relative;
+    z-index: 1;
+}
+
+.db-navbar-parent .navbar .nav-link::before {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    transition: all 0.4s;
+    right: 0;
+    left: 100%;
+    top: 0;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.db-navbar-parent .navbar .nav-link:hover::before, .db-navbar-parent .navbar-nav .nav-link.active::before {
+    left: 0;
+    width: 100%;
+    background: linear-gradient(90deg, #0000009D 0%, #05101C 100%);   
+}
+
+.db-navbar-parent .blue-btn {
+    padding: 21px 58px;
+}
+
+@media screen and (max-width: 1800px) {
+    .db-navbar-parent {
+        width: 300px;
+        padding-left: 14px;
+    }
+
+    .db-navbar-parent .nav-item {
+        padding: 8px 0;
+    }
+
+    .db-navbar-parent .navbar .nav-item .nav-link, .db-navbar-parent .navbar-nav .nav-link.active {
+        font-size: 18px;
+        padding: 12px 0px 12px 12px;
+        gap: 14px;
+    }
+
+    .db-navbar-parent .css-1naxjh8-MuiSvgIcon-root {
+        width: 22px;
+        height: 22px;   
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .db-navbar-parent {
+        width: 264px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .db-navbar-parent .db-logo img {
+        width: 128px;
+    }
+
+    .db-navbar-parent {
+        width: 226px;
+        padding-top: 30px;
+    }
+
+    .db-navbar-parent .db-logo {
+        padding-left: 14px;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .db-navbar-parent .nav-item {
+        padding: 4px 0;
+    }
+
+    .db-navbar-parent .navbar .nav-item .nav-link, .db-navbar-parent .navbar-nav .nav-link.active {
+        font-size: 16px;
+        padding: 10px 0px 10px 12px;
+        gap: 14px;
+    }
+
+    .db-navbar-parent .blue-btn {
+        padding: 12px 40px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .db-navbar-parent {
+        width: 200px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .db-navbar-parent {
+        padding: 16px 0 10px 6px;
+        width: 194px;
+    }
+
+    .db-navbar-parent .db-logo {
+        margin-bottom: 4px;
+    }
+
+    .db-navbar-parent .db-logo img {
+        width: 110px;
+    }
+
+    .db-navbar-parent .navbar .nav-item .nav-link, .db-navbar-parent .navbar-nav .nav-link.active {
+        padding: 6px 0px 6px 11px;
+        font-size: 15px;
+    }
+
+    .db-navbar-parent .blue-btn {
+        padding: 10px 34px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 991.9px) {
+    .db-navbar-parent {
+        position: relative;
+        height: fit-content;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        overflow: visible;
+        width: 100%;
+        padding: 8px 12px;
+    }
+
+    .db-navbar-parent .blue-btn {
+        display: none;
+    }
+
+    .db-navbar-parent .navbar {
+        position: static;
+    }
+
+    .db-navbar-parent .navbar-collapse {
+        position: absolute;
+        left: 10px;
+        background-color: #D31D05;
+        width: 96%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .db-navbar-parent .navbar-collapse {
+        left: 0;
+        width: 100%;
+    }
+
+    .db-navbar-parent .nav-item {
+        padding-left: 10px;
+    }
+}

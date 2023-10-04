@@ -1,4 +1,4 @@
-import Layout from "../../layout";
+import Layout from "../../layouts/layout";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

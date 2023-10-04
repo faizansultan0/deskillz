@@ -12,6 +12,7 @@
     padding: 22px 46px;
     background: linear-gradient(180deg, #4082D0 0%, #1C5FB1 100%);
     overflow: hidden;
+    display: inline-block;
 }
 
 .blue-btn::before {

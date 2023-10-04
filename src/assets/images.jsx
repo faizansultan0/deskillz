@@ -54,6 +54,10 @@ const images = {
     chivalrySm: require('./images/chivalrysm.jpg'),
     coreKeeper: require('./images/coreKeeper.jpg'),
     fruitCombo: require('./images/3fruitCombo.jpeg'),
+
+    // Dashboard SideBar
+    dbLogo: require('./images/db-logo.png'),
+    dummy58: require('./images/dummy5858.png'),
 }
 
 export default images;

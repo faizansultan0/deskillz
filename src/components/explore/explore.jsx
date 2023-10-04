@@ -1,5 +1,5 @@
 import Slider from 'react-slick';
-import Layout from '../../layout';
+import Layout from "../../layouts/layout";
 import { Link } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import GlobalButton from '../globalButton/globalButton';

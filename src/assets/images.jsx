@@ -1,6 +1,7 @@
 const images = {
     // Header 
     logo: require('./images/logo.png'),
+    walletImg: require('./images/wallet-icon.png'),
 
     // Footer
     footerLogo: require('./images/footer-logo.png'),

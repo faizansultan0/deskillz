@@ -35,6 +35,11 @@ const Header = () => {
                                     <Nav.Item>
                                         <NavLink className='nav-link' to="/news">News</NavLink>
                                     </Nav.Item>
+                                    <Nav.Item>
+                                        <span className="wallet-img-div">
+                                            <img src={ images.walletImg} alt="Wallet" className="wallet-img" />
+                                        </span>
+                                    </Nav.Item>
                                     {/* <Nav.Item>
                                         <Player
                                             src={ require('../../assets/lottiePlayer/stack.json') }

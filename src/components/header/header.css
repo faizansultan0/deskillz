@@ -23,6 +23,8 @@
 
 .header .nav-item {
     padding: 0 30px;
+    display: flex;
+    align-items: center;
 }
 
 .header .navbar .nav-item .nav-link {
@@ -53,6 +55,13 @@
 
 .header .nav-item .active::after {
     width: 100%;
+}
+
+.header .wallet-img-div {
+    display: inline-block;
+    background-color: white;
+    padding: 0px;
+    border-radius: 6px;
 }
 
 @media screen and (max-width: 1399.9px) {
@@ -103,8 +112,12 @@
         border-bottom: 2px solid white;
     }
 
+    .header .nav-item:nth-last-child(2) {
+        border: 0;
+    }
+
     .header .nav-item:last-child {
-        border: none;
+        display: none;
     }
 
     .header .navbar .nav-item .active {
